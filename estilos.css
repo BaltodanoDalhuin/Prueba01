@@ -1,0 +1,145 @@
+/*Contenido de Barra de Navegacion*/
+*{
+   margin: 0;
+   padding: 0;
+}
+
+nav {
+   background-color:blue;
+}
+
+ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+   width: 100vw; 
+}
+
+.listaNav > li {
+   margin: 0;
+   padding: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+li:hover{
+ transition: 250ms;
+ background-color: #000000;
+}
+
+
+header{
+   margin: 0;
+   padding: 0;
+   display:inline-block;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%
+}
+/*Contenido de Barra de Navegacion*/
+
+/*Contenido Carrucel*/
+
+.slider-box {
+   height: auto;
+   margin: auto;
+   overflow: hidden;
+}
+.slider-box ul {
+display: flex;
+padding: 0;
+width: 200%;
+animation: slide 10s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+width: 100%;
+list-style: none;
+position: relative;
+}
+.texto {
+position: absolute;
+text-align: start;
+padding: 0 250px;
+top: 250px;
+color: #f4f4f4;
+}
+.texto h2{
+font-size: 45px;
+margin-bottom: 35px;
+}
+.slider-box img {
+width: 100%;
+}
+
+@keyframes slide {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% { margin-left: -100%;}
+45% { margin-left: -100%;}
+
+50% { margin-left: -200%;}
+70% { margin-left: -200%;}
+
+75% { margin-left: -300%;}
+100% { margin-left: -300%;}
+}
+
+@media(max-width:991px) {}
+
+.slider-box {
+   width: 100%;
+}
+.texto {
+   top: 50px;
+   padding: 0 25px;
+}
+.texto h2{
+   font-size: 35px;
+   margin-bottom: 15px;
+}
+.texto p {
+   font-size: 15px;
+}
+/*Contenido Carrucel*/
+
+/* Estilo general para el contenedor principal */
+.home {
+   background-color: #f9f9f9; /* Color de fondo suave */
+   padding: 20px; /* Espaciado interno */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para la sección */
+.container {
+   max-width: 1200px; /* Ancho máximo */
+   margin: 0 auto; /* Centrar el contenido */
+   padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para el encabezado */
+.header {
+   text-align: center; /* Centrar texto */
+   margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilo para el título */
+h1 {
+   font-size: 2.5em; /* Tamaño de fuente grande */
+   color: #333; /* Color oscuro */
+}
+
+/* Estilo para la línea de separación */
+.breakline {
+   margin-top: 10px; /* Espaciado superior */
+}
+
+.yellow-line {
+   width: 100%; /* Ancho completo */
+   height: 4px; /* Altura de la línea */
+   background-color: yellow; /* Color amarillo */
+}
