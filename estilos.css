@@ -1,3 +1,9 @@
+body {
+   padding: 0;
+   margin: 0;
+   bottom: 0;
+ }
+
 /*Contenido de Barra de Navegacion*/
 *{
    margin: 0;
@@ -137,26 +143,25 @@ width: 100%;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilo para la sección */
 .container {
    max-width: 1200px; 
    margin: 0 auto; 
    padding: 20px;
 }
 
-/* Estilo para el encabezado */
+
 .header {
    text-align: center; 
    margin-bottom: 20px; 
 }
 
-/* Estilo para el título */
+
 h1 {
    font-size: 2.5em; 
    color: #224a79; 
 }
 
-/* Estilo para la línea de separación */
+
 .breakline {
    margin-top: 10px;
 }
@@ -217,3 +222,128 @@ button:hover {
    display: none;
 }
 /*Estilo para los contenidos de la parte de abajo*/
+
+/*Estilo para Opciones*/
+
+  .wrapper-serv-princ {
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .title-serv-princ {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .serv-col {
+    width: 22%;
+    margin-bottom: 17px;
+    text-align: center;
+  }
+  .serv-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+  }
+  .serv-item:hover {
+    transform: scale(1.05);
+  }
+  .serv-item img {
+    max-width: 100%;
+    height: auto;
+  }
+/*Estilo para Opciones*/
+
+
+/*Estilo de video*/
+
+.videoParallax{
+   width: 100vw;
+   
+}
+
+#videoParallaxDesktop{
+   width: 100vw;
+}
+
+ /*Estilo de video*/
+
+
+ /*Estilo opciones 2*/
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f8f8;
+   padding: 20px;
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.services > div > div > img{
+   width: 100px;
+}
+.item {
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   width: 90%;
+   max-width: 300px;
+   margin: 18px;
+   text-align: center;
+   padding: 30px;
+}
+
+.item img {
+   max-width: 90px;
+   margin-bottom: 20px;
+}
+
+.item h3 {
+   font-size: 1.5em;
+   margin-bottom: 10px;
+}
+
+.item p {
+   font-size: 1em;
+   margin-bottom: 20px;
+}
+
+.item button {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   text-transform: uppercase;
+}
+
+.item button:hover {
+   background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+   .item {
+       width: 45%;
+   }
+}
+
+@media (min-width: 1024px) {
+   .item {
+       width: 30%;
+   }
+}
+ /*Estilo opciones 2*/
