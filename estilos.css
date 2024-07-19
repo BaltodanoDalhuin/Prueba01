@@ -86,7 +86,6 @@ color: #f4f4f4;
 */
 
 .texto{
-   height: 500px;
    position: absolute;
    display: flex;
    align-items: center;
@@ -122,17 +121,42 @@ width: 100%;
 .slider-box {
    width: 100%;
 }
-.texto {
-   top: 50px;
-   padding: 0 25px;
+
+.texto{
+
+   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(61, 59, 59, 0.810259) 50%, rgba(255, 255, 255, 0) 100%);
+   color: #ffffff;
+   font-size: 22px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: bold;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 90px;
+   width: 100%;
+   text-align: center;
 }
-.texto h2{
-   font-size: 35px;
-   margin-bottom: 15px;
-}
-.texto p {
-   font-size: 15px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Contenido Carrucel*/
 
 /* Estilo general para el contenedor principal */
@@ -199,9 +223,12 @@ h1 {
 }
 
 h2 {
-   font-size: 1.5em; 
-   color: #235196; 
+   font-size: 1.7em; 
+   color: #000000; 
+   font-family: Arial, Helvetica, sans-serif;
+
 }
+
 
 button {
    padding: 10px 15px; 
@@ -339,7 +366,6 @@ button:hover {
 }
  /*Estilo opciones 2*/
 
- /
  .container2 {
    text-align: left;
    margin: 20px 0;
@@ -374,7 +400,58 @@ button:hover {
    margin: 10px 0;
  }
  
+ h2{
+   font-size: 1.7em; 
+   color: #1b18d6; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 /*Estilo para conocer ice*/
+
+
+
+
+
+/*Estilos de queremos saber*/
+
+.content-queremos {
+   text-align: center;
+   color: #004b93;
+   margin: 20px;
+ }
+ 
+ .title {
+   margin: 0;
+   color: blue;
+ }
+ 
+ .description {
+   margin: 10px 0 0 0;
+ }
+
+ .button2 {
+color: yellow;
+}
+
+
+ 
+/*Estilos de queremos saber*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Estilo del footer*/
 
